@@ -14,7 +14,7 @@ class openAITest {
     @Test
     void createChatCompletion() {
         String message = "如何学习java";
-        String result = openAI.createChatCompletion(message,"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");
+        String result = openAI.createChatCompletion(message,"");
         System.out.println(result);
     }
 }
