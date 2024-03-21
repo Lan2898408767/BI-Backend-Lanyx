@@ -19,9 +19,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://101.42.16.212:3306/long?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false
-    username: long
-    password: 123456
+    url: jdbc:mysql://:3306/long?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false
+    username:
+    password:
   # Redis 配置
   # todo 需替换配置，然后取消注释
 #  redis:
@@ -32,10 +32,10 @@ spring:
 #    password: 123456
   redis:
     database: 1
-    host: 101.42.16.212
+    host:
     port: 6379
-    timeout: 5000
-    password: 123456
+    timeout:
+    password:
 
   # 文件上传
   servlet:
@@ -50,10 +50,10 @@ spring:
 #    password: guest
 #    username: guest
   rabbitmq:
-   host: 101.42.16.212
+   host:
    port: 5672
-   password: Lanyx
-   username: admin
+   password:
+   username:
 
 server:
   address: 0.0.0.0
@@ -100,13 +100,13 @@ wx:
 # todo 需替换配置
 cos:
   client:
-    accessKey: AKIDkRxJTXQVdbMJDuQnz2CIHB0iLpBMPL57
-    secretKey: 53tdHqHbr13yoZP9mFctGXihkDZkhbVV
-    region: ap-beijing
-    bucket: file--upload-1322447072
+    accessKey:
+    secretKey:
+    region:
+    bucket:
 
 # 鱼聪明 AI 配置（https://yucongming.com/）
 yuapi:
   client:
-    access-key: uqhd0u43wmcs24pqwl7ro5c8gkwihacp
-    secret-key: 0u5qa7fl09z9vm195w6jbsnkcvz0zxuf
+    access-key:
+    secret-key:
